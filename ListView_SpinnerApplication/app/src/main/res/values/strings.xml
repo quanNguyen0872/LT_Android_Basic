@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ListView_Spinner Application</string>
+    <string-array name="traicay_array">
+        <item>Mít</item>
+        <item>Xoài</item>
+        <item>Chôm Chôm</item>
+        <item>Sầu Riêng</item>
+        <item>Thanh Long</item>
+        <item>Măng Cục</item>
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HocKi_2_Nam_3/LapTrinhThietBiDiDong/Labs/FragmentApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1465" />
+        <entry key="..\:/HocKi_2_Nam_3/LapTrinhThietBiDiDong/Labs/FragmentApplication/app/src/main/res/layout-land/activity_main.xml" value="0.21516754850088182" />
+        <entry key="..\:/HocKi_2_Nam_3/LapTrinhThietBiDiDong/Labs/FragmentApplication/app/src/main/res/layout-land/layoutsanphammain.xml" value="0.1" />
+        <entry key="..\:/HocKi_2_Nam_3/LapTrinhThietBiDiDong/Labs/FragmentApplication/app/src/main/res/layout/activity_fragment_chi_tiet_san_pham.xml" value="0.264" />
+        <entry key="..\:/HocKi_2_Nam_3/LapTrinhThietBiDiDong/Labs/FragmentApplication/app/src/main/res/layout/activity_main.xml" value="0.223731884057971" />
+        <entry key="..\:/HocKi_2_Nam_3/LapTrinhThietBiDiDong/Labs/FragmentApplication/app/src/main/res/layout/fragment.xml" value="0.13129584352078238" />
+        <entry key="..\:/HocKi_2_Nam_3/LapTrinhThietBiDiDong/Labs/FragmentApplication/app/src/main/res/layout/fragment_danhsachsanpham.xml" value="0.24320652173913043" />
+        <entry key="..\:/HocKi_2_Nam_3/LapTrinhThietBiDiDong/Labs/FragmentApplication/app/src/main/res/layout/fragment_thongtinsanpham.xml" value="0.264" />
+        <entry key="..\:/HocKi_2_Nam_3/LapTrinhThietBiDiDong/Labs/FragmentApplication/app/src/main/res/layout/layoutsanpham.xml" value="0.24320652173913043" />
+        <entry key="..\:/HocKi_2_Nam_3/LapTrinhThietBiDiDong/Labs/FragmentApplication/app/src/main/res/layout/thongtinsanpham.xml" value="0.24320652173913043" />
+        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.22552083333333334" />
+        <entry key="app/src/main/res/layout/activity_fragment_chi_tiet_san_pham.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_danhsachsanpham.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_thongtinsanpham.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

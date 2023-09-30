@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:text="Máy 1"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/b1fv" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/b1fv" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/b1fv" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView_KetQua1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Kết Quả Máy 1"
+        android:textSize="17dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Nguoi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="20dp"
+                android:text="0"
+                android:textAlignment="viewEnd" />
+
+            <ImageView
+                android:id="@+id/imageSamSet"
+                android:layout_width="9dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img" />
+
+            <TextView
+                android:id="@+id/May"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="0"
+                android:paddingTop="20dp"
+                android:textAlignment="viewStart"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView_KetQua2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Kết Quả Máy 2"
+        android:textSize="17dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/b1fv" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/b1fv" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/b1fv" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:text="Máy 2"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/editText_TimeStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Thời Gian Chạy  (GIÂY)"
+        android:inputType="time"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/button_rutbai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        android:text="Play"
+        android:textSize="28dp"
+        />
+
+</LinearLayout>

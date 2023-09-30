@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChiTietSanPhamActivity">
+
+    <fragment
+        android:id="@+id/fragment_thongtinsanpham"
+        android:name="com.example.fragmentapplication.fragmentThongTinSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView_SanPham"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="-80dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView_tenSanPham"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="-70dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="35sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView_donGiaSP"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="#FF5722"-->
+<!--        android:textSize="24sp" />-->
+
+</LinearLayout>
